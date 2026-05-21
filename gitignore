@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Environment variables — NEVER commit your token
+.env
+.env.local
+*.env
+
+# Generated output files
+audit_log_report.json
+audit_log_report.csv
+org_repos.json
+org_repos.csv
+*_events_output.json
+*_events_output.csv
+
+# Keep sample data
+!repo_events.json
+!repo_events.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
